@@ -1,0 +1,10 @@
+.right-content {
+  flex: 1;
+}
+
+.right-content {
+  flex: 0 0 35%; /* Allocate 35% of the space to the Right component */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}

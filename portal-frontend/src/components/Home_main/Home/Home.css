@@ -1,0 +1,288 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amaranth&family=Coiny&family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Neonderthaw&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+:root {
+  --shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.Home .Topheader {
+  display: flex;
+  justify-content: flex-end;
+  width: 96%;
+  margin: 1rem;
+  position: fixed;
+}
+.Home .Topheader .iconButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 2rem;
+}
+.Home .Topheader button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: #6b6b6b;
+}
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 8rem;
+  font-family: "Amaranth", sans-serif;
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+  position: relative;
+  overflow: hidden;
+}
+.Home .header .main-table {
+  width: 100%;
+  font-family: Varela Round;
+}
+.Home .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 1rem;
+  border-radius: 0.8rem;
+}
+
+.Home .header h1 {
+  font-size: 4rem;
+  width: 100%;
+  text-align: start;
+}
+.Home .header h1 span {
+  color: #0508be67;
+}
+.Home .header h1 p {
+  font-size: 15px;
+  font-family: Varela Round;
+  color: rgb(160, 156, 156);
+  text-align: start;
+  max-width: 500px;
+}
+.Home .header h1 div {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.Home .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  height: 930px;
+  background-color: transparent;
+}
+.Home .header .p-box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+.Home .header .p-box .s-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+  transition-delay: 100ms;
+  transition: all;
+  font-size: 40px;
+}
+
+.Home .header .buttons-grup,
+.Home .header .explore {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 0.4rem;
+  width: 100%;
+}
+.Home .header .explore button:hover a {
+  color: black;
+}
+.Home .header .explore .avatar {
+  padding: 1rem;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.425);
+  width: 60px;
+  height: 60px;
+  margin-right: 0rem;
+  border: 2px solid #ddd;
+}
+.Home .header .explore .avatar a {
+  color: #ddd;
+}
+.Home .header .buttons-grup button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: solid 1px #ddd;
+}
+.Home .header .buttons-grup button:nth-child(2) {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: solid 1px #ddd;
+}
+.Home .header .buttons-grup button,
+.Home .header .explore button {
+  max-width: 200px;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: solid #7489ffdc 1px;
+  outline: none;
+  background-color: #7489ffdc;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.Home .header .p-box .s-button:hover {
+  box-shadow: 17px 13px 26px -11px rgba(122, 175, 250, 0.7);
+  -webkit-box-shadow: 17px 13px 26px -11px rgba(122, 175, 250, 0.7);
+  -moz-box-shadow: 17px 13px 26px -11px rgba(122, 175, 250, 0.7);
+}
+.Home .header table {
+  margin-top: 2rem;
+  padding: 0.5rem;
+}
+.Home .header table tr {
+  display: flex;
+
+  margin-right: 1rem;
+  margin: 0.3rem;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgb(70, 70, 70);
+  align-items: center;
+}
+
+/* skills...................... */
+/*.Skills {
+  display: flex;
+  justify-content: center;
+}
+.grid-container {
+  width: 70%;
+  display: flex;
+  overflow-x: auto;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 2rem;
+}
+.grid-container .grid-item {
+  width: 400px;
+  min-width: 300px;
+  border-radius: 3rem;
+  background-color: #23ffc863;
+  margin-left: 1rem;
+}
+.Cards {
+  margin: 1.5rem;
+}
+.Cards .Card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Cards .card-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 6rem;
+  min-height: 6rem;
+  margin: 1rem;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: var(--shadow);
+}
+.Cards .Card-header h2 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.Cards .Card-header h2 span {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.Cards .content {
+  text-align: flex-start;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    bottom: 0;
+  }
+  .Home {
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+  }
+  .Home .hero {
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+  }
+  .Home .header .explore button {
+    margin-left: 0.5rem;
+  }
+  .Home .header .p-box {
+    max-width: 100%;
+    justify-content: space-between;
+  }
+  .Home .header .p-box .s-button {
+    width: 70px;
+    height: 70px;
+    margin-top: 0.7rem;
+    margin-left: 0.4rem;
+    padding: 1.3rem;
+    border-radius: 1rem;
+  }
+  .Home .header {
+    height: 700px;
+  }
+  .Skills {
+    width: 100%;
+  }
+  .grid-container {
+    width: 99%;
+    justify-content: flex-start;
+    overflow-x: auto;
+    flex-flow: row nowrap;
+    min-width: 350px;
+    gap: 1rem;
+  }
+  .grid-container .grid-item {
+    margin-left: 1rem;
+    max-width: 300px;
+  }
+} */

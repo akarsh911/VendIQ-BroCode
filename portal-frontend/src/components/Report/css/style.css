@@ -1,0 +1,21 @@
+*
+{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+.hr-row
+{
+  background:#f78e7f;
+  width:300px;
+  height: 5px;
+  margin-top:2px;
+  margin-bottom:25px;
+border-radius:10px;
+}
+
+.footer 
+{
+  background:#f78e7f;
+}

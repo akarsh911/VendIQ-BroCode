@@ -1,0 +1,35 @@
+/* General styling for the graph container */
+.graphContainer {
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 20px; /* Padding for spacing */
+    margin: 20px auto; /* Centered with margin */
+    width: 90%; /* Responsive width */
+    max-width: 600px; /* Max width for larger screens */
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    color: #333; /* Dark text color for readability */
+    font-size: 1rem; /* Font size */
+  }
+  
+  /* Styling for the title */
+  .graphTitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #1976d2; /* Accent color */
+    text-align: center; /* Centered text */
+  }
+  
+  /* Container for the canvas to apply rounded corners */
+  .graphCanvasContainer {
+    border-radius: 10px; /* Match container's border radius */
+    overflow: hidden; /* Clip overflowing content to maintain rounded corners */
+    background-color: #f5f5f5; /* Light background for contrast */
+  }
+  
+  /* Styling for the canvas itself */
+  .graphCanvas {
+    width: 100%; /* Full width to fit container */
+    display: block; /* Block display for consistent sizing */
+  }

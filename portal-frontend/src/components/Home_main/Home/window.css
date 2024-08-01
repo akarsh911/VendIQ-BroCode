@@ -1,0 +1,93 @@
+/* .window-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  /* .window-container:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(-19%);
+    opacity: 0;
+  } */
+/*.Window {
+    display: flex;
+    border: 20px solid rgb(255, 255, 255);
+    flex-flow: row wrap;
+    background-color: white;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 0.6rem;
+    box-sizing: border-box;
+    background-image: url("https://images.unsplash.com/photo-1516417156595-3ca5df62a3a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+  
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+      rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+      rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  .Window .window-side-pannle-1,
+  .Window .window-side-pannle-2 {
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+    width: 300px;
+    height: 400px;
+    margin: 0rem;
+    transition: all 1.5s;
+    border: 17px solid rgb(0, 0, 0);
+    border-radius: 0.6rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+  .bottom-button {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  .bottom-button button {
+    width: fit-content;
+    margin-left: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+  .window-side-pannle-1 button,
+  .window-side-pannle-2 button {
+    width: 50px;
+    position: absolute;
+    top: 88%;
+    left: 84%;
+    padding: 0.3rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(131, 128, 128);
+    border: none;
+    z-index: 889;
+  }
+  .window-side-pannle-1 button {
+    left: 0%;
+  }
+  .window-side-pannle-2 button:nth-child(2) {
+    left: 0%;
+    z-index: 88889;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .Window {
+      max-width: 90%;
+      justify-content: center;
+      border: 20px solid rgba(255, 255, 255, 0.432);
+      height: 100%;
+    }
+  
+    .Window .window-side-pannle-1,
+    .Window .window-side-pannle-2 {
+      max-width: 50%;
+      max-height: 230px;
+      border-radius: 0%;
+      border: 5px solid rgb(0, 0, 0);
+    }
+  }
+   */
